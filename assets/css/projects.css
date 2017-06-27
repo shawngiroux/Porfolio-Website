@@ -1,0 +1,119 @@
+body {
+	height: 100%;
+	width: 100%;
+	/*display: flex;*/
+}
+
+h1, p, a {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+	font-size: 2.3rem;
+}
+
+.navigate {
+	position: fixed;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: white;
+	color: white;
+}
+
+.navigate a {
+	text-decoration: none;
+	white-space: nowrap;
+	color: black;
+	display: block;
+	text-align: center;
+	font-size: 3.5rem;
+	margin-top: 25px;
+	transition: color 0.15s linear;
+}
+
+.navigate a:hover {
+	color: #65ba46;
+}
+
+.links {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 25px;
+}
+
+.links a {
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.navigate-open {
+	position: fixed;
+	z-index: 1;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.navigate-open span {
+	font-size: 2rem;
+}
+
+.navigate-open a {
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.container {
+	width: 80%;
+}
+
+#header {
+	color: #227522;
+	text-align: center;
+	font-size: 3.5rem;
+	font-weight: bold;
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+.row img {
+	width: 100%;
+}
+
+#need-border {
+	border: solid 1px #adc9a3;
+}
+
+.row a {
+	font-size: 2.5rem;
+	color: #227522;
+}
+
+interest {
+	color: #227522
+}
+
+.title {
+	padding-left: 15px;
+	color: #227522;
+}
+
+.divider {
+	width: 90%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(173, 201, 163, 0), rgba(173, 201, 163, 0.75), rgba(173, 201, 163, 0));
+}
+
+.extra-space {
+	padding-top: 300px;
+}
