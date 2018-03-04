@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+**Note:** This website isn't optimized for mobile as of now (6/27/2017), and the PHP extentions are misleading. There's really no PHP in those files, I just never changed them after working on actual PHP files for the Retro Game Store. Harmless mistake that I'll fix in the future!
+
+If you would like to see it in action, [click here](http://shawngiroux.com)!
