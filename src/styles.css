@@ -1,0 +1,10 @@
+/* Adding Bootstrap */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("/assets/img/brick-background.jpeg");
+  background-size: cover;
+}
