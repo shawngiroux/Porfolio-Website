@@ -1,0 +1,26 @@
+.nav {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #adadad;
+}
+
+.nav-link {
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  color: #c6c6c6;
+}
+
+.nav-link:hover {
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  color: black;
+}
+
+.active {
+  color: black;
+}
